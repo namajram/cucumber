@@ -9,12 +9,18 @@ public class CompanyInfo {
 
 }private void companyAddress() {
 	System.out.println("Company Address:Tambaram");
+	
+}
 
-}public static void main(String[] args) {
+private void compa() {
+	System.out.println("compa");
+}
+public static void main(String[] args) {
 	CompanyInfo com=new CompanyInfo();
 	com.companyNamae();
 	com.companyID();
 	com.companyAddress();
+	com.compa();
 }
 
 }
